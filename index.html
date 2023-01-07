@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Become a Magical Girl!</title>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Itim&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="full">
+        <div class="left-side">
+            <div class="logo">
+                <img src="locket.png">
+                <h1>Clow Connect</h1>
+            </div>
+            <p>Photo from League of Legends by Riot Games</p>
+        </div>
+        <div class="right-side">
+            <div class="introtxt">
+                <h2>Save the universe and become a Magical Girl! Complete with glitter powers and colorful outfits. Tell us your greatest <i>wish</i> to get started.</h2>
+                <h2>You <i>know</i> you want to.</h2>
+            </div>
+            <div class="middle">
+                <p>Let's do this!</p>
+                <fieldset>
+                    <form action="example.com/path" method="post">
+                        <div>
+                            <div><label for="first_name">FIRST NAME</label></div>
+                            <input type="text" id="first_name" placeholder="Ichigo" name="first_name">
+                        </div>
+                        <div>
+                            <div><label for="user_email">EMAIL</label></div>
+                            <input type="email" id="user_email" placeholder="strawberry@mewmew.cafe" name="email">
+                        </div>
+                        <div>
+                            <div><label for="password">PASSWORD</label></div>
+                            <input type="password" id="password" name="password" onkeyup='check();'>
+                            <div><span id='message'></span></div>
+                        </div>
+                        <div>
+                            <div><label for="last_name">LAST NAME</label></div>
+                            <input type="text" id="last_name" placeholder="Momomiya" name="last_name">
+                        </div>
+                        <div>
+                            <div><label for="phone">PHONE NUMBER</label></div>
+                            <input type="tel" id="phone" placeholder="172-193-8519" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        </div>
+                        <div>
+                            <div><label for="confirm_password">CONFIRM PASSWORD</label></div>
+                            <input type="password" id="confirm_password" name="confirm_password" onkeyup='check();'>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+            <div class="bottom">
+                <button type="submit">Create Soul Gem</button>
+                <p>Already a Magical Girl? <span style="color: #e0799d"><b>Log in</b></span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
